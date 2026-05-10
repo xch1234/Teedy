@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Ruleset"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>Ruleset for CS304 Practice 7</description>
+
+    <!-- 1. LoC (代码行数) - 对应 PMD 的 NcssCount (非注释代码行) -->
+    <rule ref="category/java/design.xml/NcssCount">
+        <properties>
+            <property name="methodReportLevel" value="30"/> <!-- 方法超过30行报警 -->
+            <property name="classReportLevel" value="300"/> <!-- 类超过300行报警 -->
+        </properties>
+    </rule>
+
+    <!-- 2. Cyclomatic Complexity (圈复杂度) -->
+    <rule ref="category/java/design.xml/CyclomaticComplexity">
+        <properties>
+            <property name="methodReportLevel" value="10"/> <!-- 超过10报警 -->
+        </properties>
+    </rule>
+
+    <!-- 3. Weighted Methods per Class (WMC - 类加权方法数) -->
+    <!-- PMD 通常在 CyclomaticComplexity 规则中通过类级别的阈值来体现 WMC -->
+    <rule ref="category/java/design.xml/CyclomaticComplexity">
+        <properties>
+            <property name="classReportLevel" value="50"/>
+        </properties>
+    </rule>
+
+    <!-- 4. Coupling Between Objects (CBO - 对象间耦合度) -->
+    <rule ref="category/java/design.xml/CouplingBetweenObjects">
+        <properties>
+            <property name="threshold" value="20"/> <!-- 耦合超过20个类报警 -->
+        </properties>
+    </rule>
+
+    <!-- 5. Lack of Cohesion in Methods (LCOM - 缺乏内聚性) -->
+    <!-- 注意：PMD 官方规则库中对 LCOM 的直接支持有限，通常使用 CognitiveComplexity 
+         或直接引用设计类中的相关内聚规则，如果官网链接有特定 LCOM 规则请按其引用 -->
+    <rule ref="category/java/design.xml/CognitiveComplexity">
+        <properties>
+            <property name="reportLevel" value="15"/>
+        </properties>
+    </rule>
+
+</ruleset>
