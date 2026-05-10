@@ -85,6 +85,12 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.12.1</version>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
         <version>${org.apache.maven.plugins.maven-antrun-plugin.version}</version>
       </plugin>
@@ -116,8 +122,120 @@
         <artifactId>jetty-maven-plugin</artifactId>
         <version>${org.eclipse.jetty.jetty-maven-plugin.version}</version>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.21.0</version> <!-- 建议使用较新版本 -->
+        <configuration>
+          <!-- 核心：指定你刚才创建的自定义规则文件 -->
+          <rulesets>
+            <ruleset>${maven.multiModuleProjectDirectory}/customize-rules.xml</ruleset>
+          </rulesets>
+          <failOnViolation>false</failOnViolation> <!-- 添加这一行 -->
+          <linkXRef>false</linkXRef> <!-- 添加这一行 -->
+          <printFailsInConsole>true</printFailsInConsole>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <!-- 在 verify 阶段自动执行 check -->
+              <goal>check</goal>
+              <goal>cpd-check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.9</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>prepare-agent</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>report</id>
+            <phase>test</phase>
+            <goals>
+              <goal>report</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
+  <reporting>
+    <plugins>
+        <!-- 核心报表插件：负责生成项目信息、依赖列表、模块列表等 -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>3.4.1</version>
+          <reportSets>
+            <reportSet>
+              <reports>
+                <!-- 对应侧边栏的各项 -->
+                <report>index</report>
+                <report>summary</report>
+                <report>modules</report>       <!-- 显示子模块 -->
+                <report>dependencies</report>  <!-- 显示依赖表格 -->
+                <report>dependency-info</report>
+                <report>dependency-convergence</report> <!-- 对应图1中的Convergence -->
+                <report>dependency-management</report>
+                <report>distribution-management</report>
+                <report>plugin-management</report>
+                <report>plugins</report>
+                <report>scm</report>          <!-- 对应图1中的Source Code -->
+                <report>team</report>         <!-- 对应图1中的About/Project Team -->
+              </reports>
+            </reportSet>
+          </reportSets>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>3.21.0</version>
+          <configuration>
+            <rulesets>
+              <ruleset>${maven.multiModuleProjectDirectory}/customize-rules.xml</ruleset>
+            </rulesets>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-report-plugin</artifactId>
+          <version>3.0.0</version>
+          <reportSets>
+            <reportSet>
+              <id>aggregate</id>
+              <inherited>false</inherited>
+              <reports>
+                <report>report</report>
+              </reports>
+              <configuration>
+                <aggregate>true</aggregate>
+              </configuration>
+            </reportSet>
+          </reportSets>
+        </plugin>
+        <plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>0.8.9</version>
+          <reportSets>
+            <reportSet>
+              <id>aggregate</id>
+              <inherited>false</inherited>
+              <reports>
+                <report>report-aggregate</report>
+              </reports>
+            </reportSet>
+          </reportSets>
+        </plugin>
+    </plugins>
+  </reporting>
 
   <modules>
     <module>docs-core</module>
@@ -490,5 +608,4 @@
 
     </dependencies>
   </dependencyManagement>
-
 </project>
