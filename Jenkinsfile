@@ -1,44 +1,103 @@
 pipeline {
     agent any
     stages {
+        stage('Init') {
+            steps {
+                script {
+                    if (isUnix()) {
+                        env.MVN_CMD = 'mvn'
+                    } else {
+                        env.MVN_CMD = 'mvn'
+                    }
+                }
+            }
+        }
         stage('Clean') {
             steps {
-                sh 'mvn clean'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} clean"
+                    } else {
+                        bat "${env.MVN_CMD} clean"
+                    }
+                }
             }
         }
         stage('Compile') {
             steps {
-                sh 'mvn compile'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} compile"
+                    } else {
+                        bat "${env.MVN_CMD} compile"
+                    }
+                }
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test -Dmaven.test.failure.ignore=true'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} test -Dmaven.test.failure.ignore=true"
+                    } else {
+                        bat "${env.MVN_CMD} test -Dmaven.test.failure.ignore=true"
+                    }
+                }
             }
         }
         stage('PMD') {
             steps {
-                sh 'mvn pmd:pmd'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} pmd:pmd"
+                    } else {
+                        bat "${env.MVN_CMD} pmd:pmd"
+                    }
+                }
             }
         }
         stage('JaCoCo') {
             steps {
-                sh 'mvn jacoco:report'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} jacoco:report"
+                    } else {
+                        bat "${env.MVN_CMD} jacoco:report"
+                    }
+                }
             }
         }
         stage('Javadoc') {
             steps {
-                sh 'mvn javadoc:javadoc'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} javadoc:javadoc"
+                    } else {
+                        bat "${env.MVN_CMD} javadoc:javadoc"
+                    }
+                }
             }
         }
         stage('Site') {
             steps {
-                sh 'mvn site'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} site"
+                    } else {
+                        bat "${env.MVN_CMD} site"
+                    }
+                }
             }
         }
         stage('Package') {
             steps {
-                sh 'mvn package -DskipTests'
+                script {
+                    if (isUnix()) {
+                        sh "${env.MVN_CMD} package -DskipTests"
+                    } else {
+                        bat "${env.MVN_CMD} package -DskipTests"
+                    }
+                }
             }
         }
     }
