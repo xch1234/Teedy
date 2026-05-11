@@ -1,0 +1,454 @@
+
+C:\Users\LENOVO\.jenkins\workspace\Teedy>mvn javadoc:javadoc 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Docs Parent                                                        [pom]
+[INFO] Docs Core                                                          [jar]
+[INFO] Docs Web Commons                                                   [jar]
+[INFO] Docs Web                                                           [war]
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml (1.7 kB at 1.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.12.0/maven-javadoc-plugin-3.12.0.pom
+Progress (1): 740 BProgress (1): 1.7 kBProgress (1): 3.8 kBProgress (1): 7.3 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 17 kBProgress (1): 18 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.12.0/maven-javadoc-plugin-3.12.0.pom (21 kB at 152 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.12.0/maven-javadoc-plugin-3.12.0.jar
+Progress (1): 0.9/493 kBProgress (1): 2.3/493 kBProgress (1): 3.6/493 kBProgress (1): 5.0/493 kBProgress (1): 6.4/493 kBProgress (1): 7.7/493 kBProgress (1): 9.1/493 kBProgress (1): 10/493 kB Progress (1): 12/493 kBProgress (1): 13/493 kBProgress (1): 15/493 kBProgress (1): 16/493 kBProgress (1): 17/493 kBProgress (1): 19/493 kBProgress (1): 20/493 kBProgress (1): 21/493 kBProgress (1): 23/493 kBProgress (1): 24/493 kBProgress (1): 26/493 kBProgress (1): 27/493 kBProgress (1): 28/493 kBProgress (1): 29/493 kBProgress (1): 30/493 kBProgress (1): 31/493 kBProgress (1): 33/493 kBProgress (1): 34/493 kBProgress (1): 36/493 kBProgress (1): 37/493 kBProgress (1): 38/493 kBProgress (1): 40/493 kBProgress (1): 41/493 kBProgress (1): 42/493 kBProgress (1): 44/493 kBProgress (1): 45/493 kBProgress (1): 49/493 kBProgress (1): 54/493 kBProgress (1): 58/493 kBProgress (1): 62/493 kBProgress (1): 66/493 kBProgress (1): 70/493 kBProgress (1): 75/493 kBProgress (1): 79/493 kBProgress (1): 83/493 kBProgress (1): 87/493 kBProgress (1): 92/493 kBProgress (1): 96/493 kBProgress (1): 100/493 kBProgress (1): 104/493 kBProgress (1): 109/493 kBProgress (1): 113/493 kBProgress (1): 117/493 kBProgress (1): 121/493 kBProgress (1): 125/493 kBProgress (1): 130/493 kBProgress (1): 134/493 kBProgress (1): 138/493 kBProgress (1): 142/493 kBProgress (1): 147/493 kBProgress (1): 151/493 kBProgress (1): 155/493 kBProgress (1): 159/493 kBProgress (1): 160/493 kBProgress (1): 164/493 kBProgress (1): 168/493 kBProgress (1): 172/493 kBProgress (1): 177/493 kBProgress (1): 181/493 kBProgress (1): 185/493 kBProgress (1): 189/493 kBProgress (1): 194/493 kBProgress (1): 198/493 kBProgress (1): 202/493 kBProgress (1): 206/493 kBProgress (1): 210/493 kBProgress (1): 227/493 kBProgress (1): 243/493 kBProgress (1): 260/493 kBProgress (1): 276/493 kBProgress (1): 291/493 kBProgress (1): 307/493 kBProgress (1): 324/493 kBProgress (1): 340/493 kBProgress (1): 356/493 kBProgress (1): 373/493 kBProgress (1): 389/493 kBProgress (1): 406/493 kBProgress (1): 422/493 kBProgress (1): 438/493 kBProgress (1): 455/493 kBProgress (1): 471/493 kBProgress (1): 487/493 kBProgress (1): 493 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.12.0/maven-javadoc-plugin-3.12.0.jar (493 kB at 1.3 MB/s)
+[INFO] 
+[INFO] --------------------< com.sismics.docs:docs-parent >--------------------
+[INFO] Building Docs Parent 1.12-SNAPSHOT                                 [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> javadoc:3.12.0:javadoc (default-cli) > generate-sources @ docs-parent >>>
+[INFO] 
+[INFO] --- jacoco:0.8.9:prepare-agent (default) @ docs-parent ---
+[INFO] argLine set to -javaagent:C:\\Users\\LENOVO\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.9\\org.jacoco.agent-0.8.9-runtime.jar=destfile=C:\\Users\\LENOVO\\.jenkins\\workspace\\Teedy\\target\\jacoco.exec
+[INFO] 
+[INFO] <<< javadoc:3.12.0:javadoc (default-cli) < generate-sources @ docs-parent <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.12.0:javadoc (default-cli) @ docs-parent ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.3/wagon-provider-api-3.5.3.pom
+Progress (1): 827 BProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.3/wagon-provider-api-3.5.3.pom (1.9 kB at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.5.3/wagon-3.5.3.pom
+Progress (1): 740 BProgress (1): 2.1 kBProgress (1): 4.6 kBProgress (1): 8.3 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 18 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.5.3/wagon-3.5.3.pom (21 kB at 183 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.14.0/commons-text-1.14.0.pom
+Progress (1): 738 BProgress (1): 2.0 kBProgress (1): 3.8 kBProgress (1): 6.5 kBProgress (1): 8.8 kBProgress (1): 13 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 22 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.14.0/commons-text-1.14.0.pom (23 kB at 168 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.pom
+Progress (1): 859 BProgress (1): 2.8 kBProgress (1): 5.0 kBProgress (1): 6.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.pom (6.6 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.14/httpcomponents-client-4.5.14.pom
+Progress (1): 841 BProgress (1): 2.3 kBProgress (1): 4.6 kBProgress (1): 8.6 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.14/httpcomponents-client-4.5.14.pom (15 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.pom
+Progress (1): 869 BProgress (1): 2.5 kBProgress (1): 4.7 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.pom (5.0 kB at 38 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.16/httpcomponents-core-4.4.16.pom
+Progress (1): 850 BProgress (1): 2.3 kBProgress (1): 4.3 kBProgress (1): 7.2 kBProgress (1): 9.8 kBProgress (1): 12 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.16/httpcomponents-core-4.4.16.pom (12 kB at 111 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.3/wagon-provider-api-3.5.3.jar
+Progress (1): 7.7/55 kBProgress (1): 15/55 kB Progress (1): 32/55 kBProgress (1): 48/55 kBProgress (1): 55 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.5.3/wagon-provider-api-3.5.3.jar (55 kB at 459 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.14.0/commons-text-1.14.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar
+Progress (1): 7.7/786 kBProgress (1): 16/786 kB Progress (1): 32/786 kBProgress (1): 48/786 kBProgress (1): 65/786 kBProgress (1): 81/786 kBProgress (1): 97/786 kBProgress (1): 114/786 kBProgress (1): 130/786 kBProgress (1): 147/786 kBProgress (1): 163/786 kBProgress (1): 179/786 kBProgress (1): 196/786 kBProgress (1): 212/786 kBProgress (1): 228/786 kBProgress (1): 245/786 kBProgress (1): 261/786 kBProgress (1): 278/786 kBProgress (1): 294/786 kBProgress (1): 310/786 kBProgress (1): 327/786 kBProgress (1): 343/786 kBProgress (1): 360/786 kBProgress (1): 376/786 kBProgress (1): 392/786 kBProgress (1): 409/786 kBProgress (1): 425/786 kBProgress (1): 441/786 kBProgress (1): 458/786 kBProgress (1): 474/786 kBProgress (1): 491/786 kBProgress (1): 507/786 kBProgress (1): 523/786 kBProgress (1): 540/786 kBProgress (1): 556/786 kBProgress (1): 573/786 kBProgress (1): 589/786 kBProgress (1): 605/786 kBProgress (1): 622/786 kBProgress (1): 638/786 kBProgress (1): 654/786 kBProgress (1): 671/786 kBProgress (1): 687/786 kBProgress (1): 704/786 kBProgress (1): 720/786 kBProgress (1): 736/786 kBProgress (1): 753/786 kBProgress (1): 769/786 kBProgress (1): 786/786 kBProgress (1): 786 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar (786 kB at 3.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar
+Progress (1): 0/1.1 MBProgress (2): 0/1.1 MB | 0.9/260 kBProgress (2): 0/1.1 MB | 0.9/260 kBProgress (2): 0/1.1 MB | 2.3/260 kBProgress (2): 0/1.1 MB | 3.6/260 kBProgress (2): 0/1.1 MB | 3.6/260 kBProgress (2): 0/1.1 MB | 5.0/260 kBProgress (2): 0/1.1 MB | 5.0/260 kBProgress (2): 0/1.1 MB | 5.0/260 kBProgress (2): 0/1.1 MB | 5.0/260 kBProgress (2): 0/1.1 MB | 5.0/260 kBProgress (2): 0/1.1 MB | 6.4/260 kBProgress (2): 0/1.1 MB | 6.4/260 kBProgress (2): 0/1.1 MB | 7.7/260 kBProgress (2): 0/1.1 MB | 9.1/260 kBProgress (2): 0/1.1 MB | 9.1/260 kBProgress (2): 0/1.1 MB | 9.1/260 kBProgress (2): 0/1.1 MB | 10/260 kB Progress (2): 0/1.1 MB | 10/260 kBProgress (2): 0/1.1 MB | 10/260 kBProgress (2): 0/1.1 MB | 12/260 kBProgress (2): 0/1.1 MB | 12/260 kBProgress (2): 0/1.1 MB | 12/260 kBProgress (2): 0/1.1 MB | 12/260 kBProgress (2): 0/1.1 MB | 14/260 kBProgress (2): 0/1.1 MB | 14/260 kBProgress (3): 0/1.1 MB | 14/260 kB | 0.9/225 kBProgress (3): 0/1.1 MB | 15/260 kB | 0.9/225 kBProgress (3): 0/1.1 MB | 16/260 kB | 0.9/225 kBProgress (3): 0/1.1 MB | 16/260 kB | 2.3/225 kBProgress (3): 0/1.1 MB | 16/260 kB | 2.3/225 kBProgress (3): 0/1.1 MB | 18/260 kB | 2.3/225 kBProgress (3): 0/1.1 MB | 18/260 kB | 3.6/225 kBProgress (3): 0/1.1 MB | 19/260 kB | 3.6/225 kBProgress (3): 0/1.1 MB | 19/260 kB | 5.0/225 kBProgress (3): 0/1.1 MB | 19/260 kB | 5.0/225 kBProgress (3): 0/1.1 MB | 21/260 kB | 5.0/225 kBProgress (3): 0/1.1 MB | 21/260 kB | 6.4/225 kBProgress (3): 0/1.1 MB | 21/260 kB | 6.4/225 kBProgress (3): 0/1.1 MB | 22/260 kB | 6.4/225 kBProgress (3): 0/1.1 MB | 22/260 kB | 7.7/225 kBProgress (3): 0/1.1 MB | 22/260 kB | 7.7/225 kBProgress (3): 0/1.1 MB | 23/260 kB | 7.7/225 kBProgress (3): 0/1.1 MB | 23/260 kB | 7.7/225 kBProgress (3): 0/1.1 MB | 23/260 kB | 9.1/225 kBProgress (3): 0/1.1 MB | 23/260 kB | 10/225 kB Progress (3): 0/1.1 MB | 25/260 kB | 10/225 kBProgress (3): 0/1.1 MB | 25/260 kB | 12/225 kBProgress (3): 0/1.1 MB | 25/260 kB | 12/225 kBProgress (3): 0/1.1 MB | 25/260 kB | 12/225 kBProgress (3): 0/1.1 MB | 26/260 kB | 12/225 kBProgress (3): 0/1.1 MB | 26/260 kB | 14/225 kBProgress (3): 0/1.1 MB | 27/260 kB | 14/225 kBProgress (3): 0/1.1 MB | 27/260 kB | 14/225 kBProgress (3): 0/1.1 MB | 27/260 kB | 15/225 kBProgress (3): 0/1.1 MB | 27/260 kB | 15/225 kBProgress (3): 0/1.1 MB | 27/260 kB | 15/225 kBProgress (3): 0/1.1 MB | 27/260 kB | 16/225 kBProgress (3): 0/1.1 MB | 29/260 kB | 16/225 kBProgress (3): 0/1.1 MB | 29/260 kB | 18/225 kBProgress (3): 0/1.1 MB | 30/260 kB | 18/225 kBProgress (3): 0/1.1 MB | 30/260 kB | 19/225 kBProgress (3): 0/1.1 MB | 31/260 kB | 19/225 kBProgress (3): 0/1.1 MB | 33/260 kB | 19/225 kBProgress (3): 0/1.1 MB | 33/260 kB | 19/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 19/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 19/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 21/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 21/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 22/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 22/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 23/225 kBProgress (3): 0/1.1 MB | 34/260 kB | 25/225 kBProgress (4): 0/1.1 MB | 34/260 kB | 25/225 kB | 0.9/328 kBProgress (4): 0/1.1 MB | 34/260 kB | 26/225 kB | 0.9/328 kBProgress (4): 0/1.1 MB | 36/260 kB | 26/225 kB | 0.9/328 kBProgress (4): 0/1.1 MB | 36/260 kB | 27/225 kB | 0.9/328 kBProgress (4): 0/1.1 MB | 36/260 kB | 27/225 kB | 2.3/328 kBProgress (4): 0/1.1 MB | 36/260 kB | 27/225 kB | 2.3/328 kBProgress (4): 0/1.1 MB | 37/260 kB | 27/225 kB | 2.3/328 kBProgress (4): 0/1.1 MB | 37/260 kB | 29/225 kB | 2.3/328 kBProgress (4): 0/1.1 MB | 37/260 kB | 29/225 kB | 2.3/328 kBProgress (4): 0/1.1 MB | 37/260 kB | 29/225 kB | 3.6/328 kBProgress (4): 0/1.1 MB | 37/260 kB | 30/225 kB | 3.6/328 kBProgress (4): 0/1.1 MB | 37/260 kB | 30/225 kB | 3.6/328 kBProgress (4): 0/1.1 MB | 38/260 kB | 30/225 kB | 3.6/328 kBProgress (4): 0/1.1 MB | 38/260 kB | 30/225 kB | 3.6/328 kBProgress (4): 0/1.1 MB | 38/260 kB | 30/225 kB | 3.6/328 kBProgress (4): 0/1.1 MB | 38/260 kB | 30/225 kB | 5.0/328 kBProgress (4): 0/1.1 MB | 40/260 kB | 30/225 kB | 5.0/328 kBProgress (4): 0/1.1 MB | 40/260 kB | 30/225 kB | 5.0/328 kBProgress (4): 0/1.1 MB | 40/260 kB | 31/225 kB | 5.0/328 kBProgress (4): 0/1.1 MB | 40/260 kB | 31/225 kB | 5.0/328 kBProgress (4): 0/1.1 MB | 40/260 kB | 31/225 kB | 6.4/328 kBProgress (4): 0/1.1 MB | 40/260 kB | 31/225 kB | 6.4/328 kBProgress (4): 0/1.1 MB | 41/260 kB | 31/225 kB | 6.4/328 kBProgress (4): 0/1.1 MB | 41/260 kB | 31/225 kB | 7.7/328 kBProgress (4): 0/1.1 MB | 42/260 kB | 31/225 kB | 7.7/328 kBProgress (4): 0/1.1 MB | 42/260 kB | 31/225 kB | 7.7/328 kBProgress (4): 0/1.1 MB | 44/260 kB | 31/225 kB | 7.7/328 kBProgress (4): 0.1/1.1 MB | 44/260 kB | 31/225 kB | 7.7/328 kBProgress (4): 0.1/1.1 MB | 45/260 kB | 31/225 kB | 7.7/328 kBProgress (4): 0.1/1.1 MB | 45/260 kB | 33/225 kB | 7.7/328 kBProgress (4): 0.1/1.1 MB | 45/260 kB | 33/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 47/260 kB | 33/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 47/260 kB | 33/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 47/260 kB | 34/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 34/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 36/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 36/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 37/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 37/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 38/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 40/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 48/260 kB | 40/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 49/260 kB | 40/225 kB | 9.1/328 kBProgress (4): 0.1/1.1 MB | 49/260 kB | 40/225 kB | 10/328 kB Progress (4): 0.1/1.1 MB | 49/260 kB | 41/225 kB | 10/328 kBProgress (4): 0.1/1.1 MB | 51/260 kB | 41/225 kB | 10/328 kBProgress (4): 0.1/1.1 MB | 51/260 kB | 41/225 kB | 12/328 kBProgress (4): 0.1/1.1 MB | 51/260 kB | 42/225 kB | 12/328 kBProgress (4): 0.1/1.1 MB | 51/260 kB | 42/225 kB | 13/328 kBProgress (4): 0.1/1.1 MB | 51/260 kB | 44/225 kB | 13/328 kBProgress (4): 0.1/1.1 MB | 51/260 kB | 44/225 kB | 15/328 kBProgress (4): 0.1/1.1 MB | 52/260 kB | 44/225 kB | 15/328 kBProgress (4): 0.1/1.1 MB | 52/260 kB | 45/225 kB | 15/328 kBProgress (4): 0.1/1.1 MB | 52/260 kB | 45/225 kB | 16/328 kBProgress (4): 0.1/1.1 MB | 52/260 kB | 47/225 kB | 16/328 kBProgress (4): 0.1/1.1 MB | 53/260 kB | 47/225 kB | 16/328 kBProgress (4): 0.1/1.1 MB | 53/260 kB | 47/225 kB | 17/328 kBProgress (4): 0.1/1.1 MB | 53/260 kB | 48/225 kB | 17/328 kBProgress (4): 0.1/1.1 MB | 55/260 kB | 48/225 kB | 17/328 kBProgress (4): 0.1/1.1 MB | 55/260 kB | 49/225 kB | 17/328 kBProgress (4): 0.1/1.1 MB | 55/260 kB | 51/225 kB | 17/328 kBProgress (4): 0.1/1.1 MB | 55/260 kB | 51/225 kB | 19/328 kBProgress (4): 0.1/1.1 MB | 59/260 kB | 51/225 kB | 19/328 kBProgress (4): 0.1/1.1 MB | 59/260 kB | 52/225 kB | 19/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 52/225 kB | 19/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 52/225 kB | 20/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 53/225 kB | 20/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 53/225 kB | 21/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 53/225 kB | 23/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 55/225 kB | 23/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 55/225 kB | 24/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 55/225 kB | 26/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 59/225 kB | 26/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 59/225 kB | 27/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 59/225 kB | 28/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 28/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 30/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 31/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 32/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 34/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 35/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 36/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 38/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 39/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 41/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 42/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 43/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 45/328 kBProgress (4): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 46/328 kBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 46/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 47/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 47/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 49/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 50/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 52/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 53/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 53/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 54/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 56/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 56/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.1/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.1/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.1/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.1/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.1/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.1/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.2/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.2/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.2/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.2/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.2/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.2/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.3/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.3/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.3/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.3/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.3/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.3/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.4/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.4/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.4/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.4/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.4/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.4/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.5/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.5/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.5/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.5/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.5/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.5/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.6/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.6/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.6/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.6/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.6/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.6/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 63/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 67/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 67/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 72/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 72/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 72/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 72/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 72/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 72/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 76/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 76/260 kB | 63/225 kB | 60/328 kB | 0.7/6.7 MBProgress (5): 0.1/1.1 MB | 76/260 kB | 63/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 80/260 kB | 63/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 80/260 kB | 63/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 80/260 kB | 63/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 84/260 kB | 63/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 84/260 kB | 63/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 63/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 67/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 67/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 67/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 72/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 72/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 72/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 89/260 kB | 76/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 93/260 kB | 76/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 93/260 kB | 76/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 93/260 kB | 80/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 93/260 kB | 80/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 97/260 kB | 80/225 kB | 60/328 kB | 0.8/6.7 MBProgress (5): 0.1/1.1 MB | 97/260 kB | 80/225 kB | 60/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 97/260 kB | 80/225 kB | 60/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 97/260 kB | 84/225 kB | 60/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 101/260 kB | 84/225 kB | 60/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 101/260 kB | 89/225 kB | 60/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 101/260 kB | 89/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 105/260 kB | 89/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 105/260 kB | 93/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 64/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 68/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 93/225 kB | 68/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 97/225 kB | 68/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 97/225 kB | 68/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 97/225 kB | 73/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 101/225 kB | 73/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 110/260 kB | 101/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 114/260 kB | 101/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 114/260 kB | 105/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 118/260 kB | 105/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 122/260 kB | 105/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 122/260 kB | 105/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 105/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 105/225 kB | 77/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 105/225 kB | 81/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 110/225 kB | 81/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 110/225 kB | 81/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 110/225 kB | 81/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 110/225 kB | 81/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 110/225 kB | 81/328 kB | 0.9/6.7 MBProgress (5): 0.1/1.1 MB | 127/260 kB | 110/225 kB | 81/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 131/260 kB | 110/225 kB | 81/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 131/260 kB | 114/225 kB | 81/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 131/260 kB | 114/225 kB | 85/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 131/260 kB | 114/225 kB | 85/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 135/260 kB | 114/225 kB | 85/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 135/260 kB | 114/225 kB | 89/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 135/260 kB | 118/225 kB | 89/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 139/260 kB | 118/225 kB | 89/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 139/260 kB | 118/225 kB | 89/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 139/260 kB | 118/225 kB | 94/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 139/260 kB | 122/225 kB | 94/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 143/260 kB | 122/225 kB | 94/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 143/260 kB | 122/225 kB | 94/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 143/260 kB | 122/225 kB | 94/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 143/260 kB | 127/225 kB | 94/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 143/260 kB | 127/225 kB | 98/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 148/260 kB | 127/225 kB | 98/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 148/260 kB | 127/225 kB | 102/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 148/260 kB | 131/225 kB | 102/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 152/260 kB | 131/225 kB | 102/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 152/260 kB | 131/225 kB | 106/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 156/260 kB | 131/225 kB | 106/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 156/260 kB | 131/225 kB | 111/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 156/260 kB | 135/225 kB | 111/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 156/260 kB | 139/225 kB | 111/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 156/260 kB | 139/225 kB | 115/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 156/260 kB | 143/225 kB | 115/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 160/260 kB | 143/225 kB | 115/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 165/260 kB | 143/225 kB | 115/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 165/260 kB | 143/225 kB | 119/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 165/260 kB | 143/225 kB | 123/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 165/260 kB | 148/225 kB | 123/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 165/260 kB | 152/225 kB | 123/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 169/260 kB | 152/225 kB | 123/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 169/260 kB | 152/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 173/260 kB | 152/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 177/260 kB | 152/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 177/260 kB | 156/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 177/260 kB | 160/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 177/260 kB | 160/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 160/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 165/225 kB | 128/328 kB | 1.0/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 165/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 165/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 169/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 169/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 173/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 173/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 177/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 177/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 177/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 181/225 kB | 128/328 kB | 1.1/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 181/225 kB | 128/328 kB | 1.2/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 181/225 kB | 128/328 kB | 1.2/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.2/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.2/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.2/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.2/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.2/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.3/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.3/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.3/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.3/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.3/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.3/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.4/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.4/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.4/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.4/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.4/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.4/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.5/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.5/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.5/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.5/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.5/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.5/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.6/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.6/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.6/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.6/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.6/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.6/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.6/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 181/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 186/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 186/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.7/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.8/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.8/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.8/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.8/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.8/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.8/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 186/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 190/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 190/260 kB | 190/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 1.9/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 194/260 kB | 190/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 198/260 kB | 190/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 198/260 kB | 194/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 203/260 kB | 194/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 203/260 kB | 194/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 203/260 kB | 198/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 207/260 kB | 198/225 kB | 128/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 207/260 kB | 198/225 kB | 132/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 207/260 kB | 198/225 kB | 132/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 207/260 kB | 198/225 kB | 136/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 207/260 kB | 198/225 kB | 136/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 207/260 kB | 203/225 kB | 136/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 203/225 kB | 136/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 203/225 kB | 136/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 203/225 kB | 136/328 kB | 2.0/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 203/225 kB | 136/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 203/225 kB | 136/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 203/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 207/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 211/260 kB | 207/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 215/260 kB | 207/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 215/260 kB | 207/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 215/260 kB | 207/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 219/260 kB | 207/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 219/260 kB | 211/225 kB | 139/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 219/260 kB | 211/225 kB | 143/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 219/260 kB | 215/225 kB | 143/328 kB | 2.1/6.7 MBProgress (5): 0.1/1.1 MB | 219/260 kB | 215/225 kB | 147/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 219/260 kB | 215/225 kB | 147/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 219/260 kB | 215/225 kB | 147/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 219/260 kB | 215/225 kB | 147/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 219/260 kB | 215/225 kB | 151/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 219/260 kB | 215/225 kB | 151/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 215/225 kB | 151/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 215/225 kB | 151/328 kB | 2.1/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 215/225 kB | 151/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 215/225 kB | 151/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 151/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 156/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 156/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 156/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 156/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 156/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 156/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 156/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 219/225 kB | 160/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 224/225 kB | 160/328 kB | 2.2/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 224/225 kB | 160/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 225 kB | 160/328 kB | 2.3/6.7 MB    Progress (5): 0.2/1.1 MB | 224/260 kB | 225 kB | 160/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 225 kB | 164/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 225 kB | 164/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 224/260 kB | 225 kB | 164/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 164/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 164/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 168/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 168/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 168/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 168/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 168/328 kB | 2.3/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 168/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 168/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 173/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 173/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 173/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 177/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 177/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 177/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 181/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 181/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 181/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 185/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 240/260 kB | 225 kB | 185/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 256/260 kB | 225 kB | 185/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 256/260 kB | 225 kB | 185/328 kB | 2.4/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 185/328 kB | 2.4/6.7 MB    Progress (5): 0.2/1.1 MB | 260 kB | 225 kB | 185/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 185/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 190/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 190/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 190/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 190/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.5/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 194/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 198/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 198/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 198/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 202/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 202/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 202/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 206/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 211/328 kB | 2.6/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 211/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 211/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 215/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 215/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 215/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 215/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 219/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 219/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 219/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 223/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 223/328 kB | 2.7/6.7 MBProgress (5): 0.2/1.1 MB | 260 kB | 225 kB | 223/328 kB | 2.7/6.7 MB                                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.10.0/plexus-archiver-4.10.0.jar (225 kB at 449 kB/s)
+Progress (4): 0.2/1.1 MB | 260 kB | 223/328 kB | 2.7/6.7 MBProgress (4): 0.2/1.1 MB | 260 kB | 240/328 kB | 2.7/6.7 MBProgress (4): 0.2/1.1 MB | 260 kB | 240/328 kB | 2.7/6.7 MBProgress (4): 0.2/1.1 MB | 260 kB | 240/328 kB | 2.8/6.7 MBProgress (4): 0.2/1.1 MB | 260 kB | 240/328 kB | 2.8/6.7 MB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.14.0/commons-text-1.14.0.jar (260 kB at 513 kB/s)
+Progress (3): 0.2/1.1 MB | 240/328 kB | 2.8/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.8/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.8/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.8/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.8/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.9/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.9/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.9/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.9/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.9/6.7 MBProgress (3): 0.2/1.1 MB | 240/328 kB | 2.9/6.7 MBProgress (3): 0.3/1.1 MB | 240/328 kB | 2.9/6.7 MBProgress (3): 0.3/1.1 MB | 240/328 kB | 3.0/6.7 MBProgress (3): 0.3/1.1 MB | 240/328 kB | 3.0/6.7 MBProgress (3): 0.3/1.1 MB | 240/328 kB | 3.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.5/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.5/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.5/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.5/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.5/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.5/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.6/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.6/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.6/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.6/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.6/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.6/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.7/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.7/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.7/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.7/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.7/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.7/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.8/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.8/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.8/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.8/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.8/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.8/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.9/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.9/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.9/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.9/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.9/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 3.9/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.0/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.1/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.2/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.3/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.4/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 256/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.5/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.6/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.6/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.6/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.6/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.6/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.6/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.7/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.7/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.7/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.7/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.7/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.7/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 270/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.8/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.9/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.9/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.9/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.9/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.9/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 4.9/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 286/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.0/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.1/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.1/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.1/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.1/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.1/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.1/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.2/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.2/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.2/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.2/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.2/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.2/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.2/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 303/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.3/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.4/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.4/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.4/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.4/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.4/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.4/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.5/6.7 MBProgress (3): 0.3/1.1 MB | 319/328 kB | 5.5/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.5/6.7 MB    Progress (3): 0.3/1.1 MB | 328 kB | 5.5/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.5/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.5/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.5/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.6/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.6/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.6/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.6/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.6/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.6/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.7/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.7/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.7/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.7/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.7/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.7/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.7/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.8/6.7 MBProgress (3): 0.3/1.1 MB | 328 kB | 5.8/6.7 MB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar (328 kB at 539 kB/s)
+Progress (2): 0.3/1.1 MB | 5.8/6.7 MBProgress (2): 0.3/1.1 MB | 5.8/6.7 MBProgress (2): 0.3/1.1 MB | 5.8/6.7 MBProgress (2): 0.3/1.1 MB | 5.8/6.7 MBProgress (2): 0.3/1.1 MB | 5.9/6.7 MBProgress (2): 0.3/1.1 MB | 5.9/6.7 MBProgress (2): 0.3/1.1 MB | 5.9/6.7 MBProgress (2): 0.3/1.1 MB | 5.9/6.7 MBProgress (2): 0.3/1.1 MB | 5.9/6.7 MBProgress (2): 0.3/1.1 MB | 5.9/6.7 MBProgress (2): 0.3/1.1 MB | 5.9/6.7 MBProgress (2): 0.3/1.1 MB | 6.0/6.7 MBProgress (2): 0.3/1.1 MB | 6.0/6.7 MBProgress (2): 0.3/1.1 MB | 6.0/6.7 MBProgress (2): 0.4/1.1 MB | 6.0/6.7 MBProgress (2): 0.4/1.1 MB | 6.0/6.7 MBProgress (2): 0.4/1.1 MB | 6.0/6.7 MBProgress (2): 0.4/1.1 MB | 6.0/6.7 MBProgress (2): 0.4/1.1 MB | 6.1/6.7 MBProgress (2): 0.4/1.1 MB | 6.1/6.7 MBProgress (2): 0.4/1.1 MB | 6.1/6.7 MBProgress (2): 0.4/1.1 MB | 6.1/6.7 MBProgress (2): 0.4/1.1 MB | 6.1/6.7 MBProgress (2): 0.4/1.1 MB | 6.1/6.7 MBProgress (2): 0.4/1.1 MB | 6.2/6.7 MBProgress (2): 0.4/1.1 MB | 6.2/6.7 MBProgress (2): 0.4/1.1 MB | 6.2/6.7 MBProgress (2): 0.4/1.1 MB | 6.2/6.7 MBProgress (2): 0.4/1.1 MB | 6.2/6.7 MBProgress (2): 0.4/1.1 MB | 6.2/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.3/6.7 MBProgress (2): 0.4/1.1 MB | 6.4/6.7 MBProgress (2): 0.4/1.1 MB | 6.4/6.7 MBProgress (2): 0.4/1.1 MB | 6.4/6.7 MBProgress (2): 0.4/1.1 MB | 6.4/6.7 MBProgress (2): 0.5/1.1 MB | 6.4/6.7 MBProgress (2): 0.5/1.1 MB | 6.4/6.7 MBProgress (2): 0.5/1.1 MB | 6.4/6.7 MBProgress (2): 0.5/1.1 MB | 6.4/6.7 MBProgress (2): 0.5/1.1 MB | 6.4/6.7 MBProgress (2): 0.5/1.1 MB | 6.5/6.7 MBProgress (2): 0.5/1.1 MB | 6.5/6.7 MBProgress (2): 0.5/1.1 MB | 6.5/6.7 MBProgress (2): 0.5/1.1 MB | 6.5/6.7 MBProgress (2): 0.5/1.1 MB | 6.5/6.7 MBProgress (2): 0.5/1.1 MB | 6.5/6.7 MBProgress (2): 0.5/1.1 MB | 6.6/6.7 MBProgress (2): 0.5/1.1 MB | 6.6/6.7 MBProgress (2): 0.5/1.1 MB | 6.6/6.7 MBProgress (2): 0.5/1.1 MB | 6.6/6.7 MBProgress (2): 0.5/1.1 MB | 6.6/6.7 MBProgress (2): 0.5/1.1 MB | 6.6/6.7 MBProgress (2): 0.5/1.1 MB | 6.7 MB    Progress (2): 0.5/1.1 MB | 6.7 MBProgress (2): 0.5/1.1 MB | 6.7 MBProgress (2): 0.5/1.1 MB | 6.7 MBProgress (2): 0.5/1.1 MB | 6.7 MB                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.6-3/zstd-jni-1.5.6-3.jar (6.7 MB at 9.8 MB/s)
+Progress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.1/1.1 MBProgress (1): 1.1/1.1 MBProgress (1): 1.1 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar (1.1 MB at 1.4 MB/s)
+[INFO] Skipping org.apache.maven.plugins:maven-javadoc-plugin:3.12.0:javadoc report goal
+[INFO] 
+[INFO] ---------------------< com.sismics.docs:docs-core >---------------------
+[INFO] Building Docs Core 1.12-SNAPSHOT                                   [2/4]
+[INFO]   from docs-core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> javadoc:3.12.0:javadoc (default-cli) > generate-sources @ docs-core >>>
+[INFO] 
+[INFO] --- jacoco:0.8.9:prepare-agent (default) @ docs-core ---
+[INFO] argLine set to -javaagent:C:\\Users\\LENOVO\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.9\\org.jacoco.agent-0.8.9-runtime.jar=destfile=C:\\Users\\LENOVO\\.jenkins\\workspace\\Teedy\\docs-core\\target\\jacoco.exec
+[INFO] 
+[INFO] <<< javadoc:3.12.0:javadoc (default-cli) < generate-sources @ docs-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.12.0:javadoc (default-cli) @ docs-core ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Docs Parent 1.12-SNAPSHOT:
+[INFO] 
+[INFO] Docs Parent ........................................ SUCCESS [  6.808 s]
+[INFO] Docs Core .......................................... FAILURE [ 19.214 s]
+[INFO] Docs Web Commons ................................... SKIPPED
+[INFO] Docs Web ........................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.479 s
+[INFO] Finished at: 2026-05-11T01:47:02+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:3.12.0:javadoc (default-cli) on project docs-core: An error has occurred in Javadoc report generation: 
+[ERROR] Exit code: 1
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\util\jpa\PaginatedList.java:10: warning: no @param for <T>
+[ERROR] public class PaginatedList<T> {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\ClasspathScanner.java:14: warning: no @param for <T>
+[ERROR] public class ClasspathScanner<T> {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\ImageDeskew.java:6: error: unknown attribute: url
+[ERROR]  * <a url=http://www.jdeskew.com/>JDeskew</a>
+[ERROR]       ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:46: error: self-closing element not allowed
+[ERROR]  * <p/>
+[ERROR]    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:51: error: self-closing element not allowed
+[ERROR]  * <p/>
+[ERROR]    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:59: error: self-closing element not allowed
+[ERROR]  * <p/>
+[ERROR]    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:62: error: self-closing element not allowed
+[ERROR]  * <p/>
+[ERROR]    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:69: error: self-closing element not allowed
+[ERROR]  * @see <a href=
+[ERROR]         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:69: error: element not closed: a
+[ERROR]  * @see <a href=
+[ERROR]         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:72: error: self-closing element not allowed
+[ERROR]  * @see <a href="http://code.google.com/p/google-authenticator" />
+[ERROR]         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:72: error: element not closed: a
+[ERROR]  * @see <a href="http://code.google.com/p/google-authenticator" />
+[ERROR]         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:73: error: self-closing element not allowed
+[ERROR]  * @see <a href="http://tools.ietf.org/id/draft-mraihi-totp-timebased-06.txt" />
+[ERROR]         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticator.java:73: error: element not closed: a
+[ERROR]  * @see <a href="http://tools.ietf.org/id/draft-mraihi-totp-timebased-06.txt" />
+[ERROR]         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticatorKey.java:39: error: self-closing element not allowed
+[ERROR]  * <p/>
+[ERROR]    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticatorKey.java:41: error: self-closing element not allowed
+[ERROR]  * <p/>
+[ERROR]    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:17: warning: use of default constructor, which does not provide a comment
+[ERROR] public class Acl implements Loggable {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:57: warning: no comment
+[ERROR]     public String getId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:65: warning: no comment
+[ERROR]     public PermType getPerm() {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:73: warning: no comment
+[ERROR]     public String getSourceId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:81: warning: no comment
+[ERROR]     public String getTargetId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:89: warning: no comment
+[ERROR]     public AclType getType() {
+[ERROR]                    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:103: warning: no comment
+[ERROR]     public void setDeleteDate(Date deleteDate) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:61: warning: no comment
+[ERROR]     public void setId(String id) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:69: warning: no comment
+[ERROR]     public void setPerm(PermType perm) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:77: warning: no comment
+[ERROR]     public void setSourceId(String sourceId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:85: warning: no comment
+[ERROR]     public void setTargetId(String targetId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\Acl.java:93: warning: no comment
+[ERROR]     public Acl setType(AclType type) {
+[ERROR]                ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclCreatedAsyncEvent.java:8: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AclCreatedAsyncEvent extends AclEvent {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\listener\async\AclCreatedAsyncListener.java:16: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AclCreatedAsyncListener {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\AclDao.java:69: warning: no @param for type
+[ERROR]     public List<AclDto> getBySourceId(String sourceId, AclType type) {
+[ERROR]                         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\AclDao.java:25: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AclDao {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclDeletedAsyncEvent.java:8: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AclDeletedAsyncEvent extends AclEvent {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\listener\async\AclDeletedAsyncListener.java:16: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AclDeletedAsyncListener {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:10: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AclDto {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:41: warning: no comment
+[ERROR]     public String getId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:57: warning: no comment
+[ERROR]     public PermType getPerm() {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:65: warning: no comment
+[ERROR]     public String getSourceId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:73: warning: no comment
+[ERROR]     public String getTargetId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:49: warning: no comment
+[ERROR]     public String getTargetName() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:81: warning: no comment
+[ERROR]     public String getTargetType() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:45: warning: no comment
+[ERROR]     public void setId(String id) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:61: warning: no comment
+[ERROR]     public void setPerm(PermType perm) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:69: warning: no comment
+[ERROR]     public void setSourceId(String sourceId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:77: warning: no comment
+[ERROR]     public void setTargetId(String targetId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:53: warning: no comment
+[ERROR]     public void setTargetName(String targetName) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AclDto.java:85: warning: no comment
+[ERROR]     public void setTargetType(String targetType) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclEvent.java:11: warning: use of default constructor, which does not provide a comment
+[ERROR] public abstract class AclEvent extends UserEvent {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclEvent.java:36: warning: no comment
+[ERROR]     public PermType getPerm() {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclEvent.java:27: warning: no comment
+[ERROR]     public String getSourceId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclEvent.java:45: warning: no comment
+[ERROR]     public String getTargetId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclEvent.java:40: warning: no comment
+[ERROR]     public AclEvent setPerm(PermType permType) {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclEvent.java:31: warning: no comment
+[ERROR]     public AclEvent setSourceId(String sourceId) {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\event\AclEvent.java:49: warning: no comment
+[ERROR]     public AclEvent setTargetId(String targetId) {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\util\ActionUtil.java:19: warning: use of default constructor, which does not provide a comment
+[ERROR] public class ActionUtil {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\util\action\AddTagAction.java:18: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AddTagAction extends TagAction {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\context\AppContext.java:33: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AppContext {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\context\AppContext.java:208: warning: no comment
+[ERROR]     public EventBus getAsyncEventBus() {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\context\AppContext.java:224: warning: no comment
+[ERROR]     public FileService getFileService() {
+[ERROR]                        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\context\AppContext.java:220: warning: no comment
+[ERROR]     public InboxService getInboxService() {
+[ERROR]                         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\context\AppContext.java:216: warning: no comment
+[ERROR]     public IndexingHandler getIndexingHandler() {
+[ERROR]                            ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\context\AppContext.java:212: warning: no comment
+[ERROR]     public EventBus getMailEventBus() {
+[ERROR]                     ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\context\AppContext.java:228: warning: no comment
+[ERROR]     public void shutDown() {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:22: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AuditLog {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:115: warning: no comment
+[ERROR]     public Date getCreateDate() {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:91: warning: no comment
+[ERROR]     public String getEntityClass() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:83: warning: no comment
+[ERROR]     public String getEntityId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:67: warning: no comment
+[ERROR]     public String getId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:99: warning: no comment
+[ERROR]     public String getMessage() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:107: warning: no comment
+[ERROR]     public AuditLogType getType() {
+[ERROR]                         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:75: warning: no comment
+[ERROR]     public String getUserId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:119: warning: no comment
+[ERROR]     public void setCreateDate(Date createDate) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:95: warning: no comment
+[ERROR]     public void setEntityClass(String entityClass) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:87: warning: no comment
+[ERROR]     public void setEntityId(String entityId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:71: warning: no comment
+[ERROR]     public void setId(String id) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:103: warning: no comment
+[ERROR]     public void setMessage(String message) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:111: warning: no comment
+[ERROR]     public void setType(AuditLogType type) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuditLog.java:79: warning: no comment
+[ERROR]     public void setUserId(String userId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\criteria\AuditLogCriteria.java:9: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AuditLogCriteria {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\criteria\AuditLogCriteria.java:25: warning: no comment
+[ERROR]     public String getDocumentId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\criteria\AuditLogCriteria.java:33: warning: no comment
+[ERROR]     public String getUserId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\criteria\AuditLogCriteria.java:41: warning: no comment
+[ERROR]     public boolean isAdmin() {
+[ERROR]                    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\criteria\AuditLogCriteria.java:45: warning: no comment
+[ERROR]     public AuditLogCriteria setAdmin(boolean admin) {
+[ERROR]                             ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\criteria\AuditLogCriteria.java:29: warning: no comment
+[ERROR]     public void setDocumentId(String documentId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\criteria\AuditLogCriteria.java:37: warning: no comment
+[ERROR]     public void setUserId(String userId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\AuditLogDao.java:24: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AuditLogDao {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:10: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AuditLogDto {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:94: warning: no comment
+[ERROR]     public Long getCreateTimestamp() {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:70: warning: no comment
+[ERROR]     public String getEntityClass() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:62: warning: no comment
+[ERROR]     public String getEntityId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:46: warning: no comment
+[ERROR]     public String getId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:86: warning: no comment
+[ERROR]     public String getMessage() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:78: warning: no comment
+[ERROR]     public AuditLogType getType() {
+[ERROR]                         ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:54: warning: no comment
+[ERROR]     public String getUsername() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:98: warning: no comment
+[ERROR]     public void setCreateTimestamp(Long createTimestamp) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:74: warning: no comment
+[ERROR]     public void setEntityClass(String entityClass) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:66: warning: no comment
+[ERROR]     public void setEntityId(String entityId) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:50: warning: no comment
+[ERROR]     public void setId(String id) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:90: warning: no comment
+[ERROR]     public void setMessage(String message) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:82: warning: no comment
+[ERROR]     public void setType(AuditLogType type) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\dto\AuditLogDto.java:58: warning: no comment
+[ERROR]     public void setUsername(String username) {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\util\AuditLogUtil.java:16: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AuditLogUtil {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:19: warning: use of default constructor, which does not provide a comment
+[ERROR] public class AuthenticationToken {
+[ERROR]        ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:108: warning: no comment
+[ERROR]     public Date getCreationDate() {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:63: warning: no comment
+[ERROR]     public String getId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:90: warning: no comment
+[ERROR]     public String getIp() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:117: warning: no comment
+[ERROR]     public Date getLastConnectionDate() {
+[ERROR]                 ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:99: warning: no comment
+[ERROR]     public String getUserAgent() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:72: warning: no comment
+[ERROR]     public String getUserId() {
+[ERROR]                   ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:81: warning: no comment
+[ERROR]     public boolean isLongLasted() {
+[ERROR]                    ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:112: warning: no comment
+[ERROR]     public AuthenticationToken setCreationDate(Date creationDate) {
+[ERROR]                                ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:67: warning: no comment
+[ERROR]     public AuthenticationToken setId(String id) {
+[ERROR]                                ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:94: warning: no comment
+[ERROR]     public AuthenticationToken setIp(String ip) {
+[ERROR]                                ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\model\jpa\AuthenticationToken.java:121: warning: no comment
+[ERROR]     public AuthenticationToken setLastConnectionDate(Date lastConnectionDate) {
+[ERROR]                                ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\AuthenticationTokenDao.java:66: error: exception not thrown: java.lang.Exception
+[ERROR]      * @throws Exception
+[ERROR]                ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\docs\core\dao\AuthenticationTokenDao.java:85: error: exception not thrown: java.lang.Exception
+[ERROR]      * @throws Exception
+[ERROR]                ^
+[ERROR] C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\src\main\java\com\sismics\util\totp\GoogleAuthenticatorConfig.java:85: error: self-closing element not allowed
+[ERROR]      * <p/>
+[ERROR]        ^
+[ERROR] 16 errors
+[ERROR] 100 warnings
+[ERROR] Command line was: cmd.exe /X /D /C ""C:\Program Files\Java\jdk-22\bin\javadoc.exe" -J-Duser.language= -J-Duser.country= @options @packages"
+[ERROR] 
+[ERROR] Refer to the generated Javadoc files in 'C:\Users\LENOVO\.jenkins\workspace\Teedy\docs-core\target\reports\apidocs' dir.
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :docs-core

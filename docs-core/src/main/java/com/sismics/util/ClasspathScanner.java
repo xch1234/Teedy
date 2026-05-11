@@ -1,15 +1,18 @@
 package com.sismics.util;
 
-import com.google.common.collect.Lists;
-import com.google.common.reflect.ClassPath;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.lang.reflect.Modifier;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.google.common.collect.Lists;
+import com.google.common.reflect.ClassPath;
+
 /**
  * Classes scanner.
+ *
+ * @param <T> Base type to search for
  */
 public class ClasspathScanner<T> {
     /**
