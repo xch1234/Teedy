@@ -72,8 +72,8 @@ import org.apache.commons.codec.binary.Base64;
  * @author Warren Strange
  * @version 0.5.0
  * @see <a href="http://thegreyblog.blogspot.com/2011/12/google-authenticator-using-it-in-your.html">thegreyblog</a>
- * @see <a href="http://code.google.com/p/google-authenticator" />
- * @see <a href="http://tools.ietf.org/id/draft-mraihi-totp-timebased-06.txt" />
+ * @see <a href="http://code.google.com/p/google-authenticator">http://code.google.com/p/google-authenticator</a>
+ * @see <a href="http://tools.ietf.org/id/draft-mraihi-totp-timebased-06.txt">http://tools.ietf.org/id/draft-mraihi-totp-timebased-06.txt</a>
  * @since 0.3.0
  */
 public final class GoogleAuthenticator {
