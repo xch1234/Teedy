@@ -1,12 +1,13 @@
 package com.sismics.util.format;
 
-import com.sismics.BaseTest;
-import com.sismics.docs.core.util.format.PdfFormatHandler;
+import java.nio.file.Paths;
+
 import org.junit.Assert;
 import org.junit.Assume;
 import org.junit.Test;
 
-import java.nio.file.Paths;
+import com.sismics.BaseTest;
+import com.sismics.docs.core.util.format.PdfFormatHandler;
 
 /**
  * Test of {@link PdfFormatHandler}

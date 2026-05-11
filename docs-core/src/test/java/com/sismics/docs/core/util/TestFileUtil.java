@@ -1,17 +1,5 @@
 package com.sismics.docs.core.util;
 
-import com.google.common.collect.Lists;
-import com.google.common.io.Resources;
-import com.sismics.BaseTest;
-import com.sismics.docs.core.dao.dto.DocumentDto;
-import com.sismics.docs.core.model.jpa.File;
-import com.sismics.docs.core.util.format.*;
-import com.sismics.util.mime.MimeType;
-import com.sismics.util.mime.MimeTypeUtil;
-import org.junit.Assert;
-import org.junit.Assume;
-import org.junit.Test;
-
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -19,6 +7,23 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Date;
+
+import org.junit.Assert;
+import org.junit.Assume;
+import org.junit.Test;
+
+import com.google.common.collect.Lists;
+import com.sismics.BaseTest;
+import com.sismics.docs.core.dao.dto.DocumentDto;
+import com.sismics.docs.core.model.jpa.File;
+import com.sismics.docs.core.util.format.DocxFormatHandler;
+import com.sismics.docs.core.util.format.FormatHandler;
+import com.sismics.docs.core.util.format.FormatHandlerUtil;
+import com.sismics.docs.core.util.format.OdtFormatHandler;
+import com.sismics.docs.core.util.format.PdfFormatHandler;
+import com.sismics.docs.core.util.format.PptxFormatHandler;
+import com.sismics.util.mime.MimeType;
+import com.sismics.util.mime.MimeTypeUtil;
 
 /**
  * Test of the file utilities.
