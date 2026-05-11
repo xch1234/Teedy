@@ -143,6 +143,66 @@
         <directory>src/main/resources</directory>
       </resource>
     </resources>
+    <plugins>
+      <!-- apidoc-style @api* tags are not standard Javadoc; register them for JDK javadoc (CI: javadoc:javadoc) -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.12.0</version>
+        <configuration>
+          <additionalJOptions>
+            <additionalJOption>-Xdoclint:none</additionalJOption>
+          </additionalJOptions>
+          <tags>
+            <tag>
+              <name>api</name>
+              <placement>a</placement>
+              <head>API</head>
+            </tag>
+            <tag>
+              <name>apiDescription</name>
+              <placement>a</placement>
+              <head>API Description</head>
+            </tag>
+            <tag>
+              <name>apiName</name>
+              <placement>a</placement>
+              <head>API Name</head>
+            </tag>
+            <tag>
+              <name>apiGroup</name>
+              <placement>a</placement>
+              <head>API Group</head>
+            </tag>
+            <tag>
+              <name>apiParam</name>
+              <placement>a</placement>
+              <head>API Param</head>
+            </tag>
+            <tag>
+              <name>apiSuccess</name>
+              <placement>a</placement>
+              <head>API Success</head>
+            </tag>
+            <tag>
+              <name>apiError</name>
+              <placement>a</placement>
+              <head>API Error</head>
+            </tag>
+            <tag>
+              <name>apiPermission</name>
+              <placement>a</placement>
+              <head>API Permission</head>
+            </tag>
+            <tag>
+              <name>apiVersion</name>
+              <placement>a</placement>
+              <head>API Version</head>
+            </tag>
+          </tags>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 
   <profiles>
