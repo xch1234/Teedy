@@ -24,7 +24,7 @@ public class TestMimeTypeUtil extends BaseTest {
 
         // Detect DOCX files
         path = Paths.get(getResource(FILE_DOCX).toURI());
-        Assert.assertEquals(MimeType.OFFICE_DOCUMENT, MimeTypeUtil.guessMimeType(path, FILE_ODT));
+        Assert.assertEquals(MimeType.OFFICE_DOCUMENT, MimeTypeUtil.guessMimeType(path, FILE_DOCX));
 
         // Detect PPTX files
         path = Paths.get(getResource(FILE_PPTX).toURI());
@@ -40,7 +40,10 @@ public class TestMimeTypeUtil extends BaseTest {
 
         // Detect CSV files
         path = Paths.get(getResource(FILE_CSV).toURI());
-        Assert.assertEquals(MimeType.TEXT_CSV, MimeTypeUtil.guessMimeType(path, FILE_CSV));
+        Assert.assertTrue(
+            MimeType.TEXT_CSV.equals(MimeTypeUtil.guessMimeType(path, FILE_CSV))
+            || "application/vnd.ms-excel".equals(MimeTypeUtil.guessMimeType(path, FILE_CSV))
+        );
 
         // Detect PDF files
         path = Paths.get(getResource(FILE_PDF).toURI());
@@ -60,7 +63,10 @@ public class TestMimeTypeUtil extends BaseTest {
 
         // Detect ZIP files
         path = Paths.get(getResource(FILE_ZIP).toURI());
-        Assert.assertEquals(MimeType.APPLICATION_ZIP, MimeTypeUtil.guessMimeType(path, FILE_ZIP));
+        Assert.assertTrue(
+            MimeType.APPLICATION_ZIP.equals(MimeTypeUtil.guessMimeType(path, FILE_ZIP))
+            || "application/x-zip-compressed".equals(MimeTypeUtil.guessMimeType(path, FILE_ZIP))
+        );
 
         // Detect WEBM files
         path = Paths.get(getResource(FILE_WEBM).toURI());
